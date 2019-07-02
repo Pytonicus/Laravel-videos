@@ -1,0 +1,13 @@
+body{
+    
+}
+/* Creamos una máscara donde entrará la imágen y con el overflow hidden diremos que se oculte las partes que sobresalgan: */
+.video-image-mask{
+    width: 150px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.video-image-mask .video-image{
+    width: 100%;
+}
